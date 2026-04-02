@@ -1,0 +1,19 @@
+Project 1: AI-Powered PDF Validation System
+pip install openai pdfplumber pytest
+
+Project Structure:
+ai-pdf-validator/
+│
+├── data/
+│   ├── sample.pdf
+│   ├── expected.json
+│
+├── src/
+│   ├── pdf_reader.py
+│   ├── validator.py
+│   ├── ai_engine.py
+│   ├── report_generator.py
+│
+├── tests/
+├── requirements.txt
+└── README.md
